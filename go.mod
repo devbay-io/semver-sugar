@@ -7,15 +7,10 @@ require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/golang/mock v1.6.0
 	github.com/google/go-github/v65 v65.0.0
-	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
+	golang.org/x/oauth2 v0.23.0
 )
 
-require (
-	github.com/golang/protobuf v1.3.2 // indirect
-	github.com/google/go-querystring v1.1.0 // indirect
-	golang.org/x/net v0.0.0-20210405180319-a5a99cb37ef4 // indirect
-	google.golang.org/appengine v1.4.0 // indirect
-)
+require github.com/google/go-querystring v1.1.0 // indirect
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
